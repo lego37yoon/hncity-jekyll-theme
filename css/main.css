@@ -1,0 +1,114 @@
+@import url("https://unpkg.com/carbon-components/css/carbon-components.min.css");
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../webfonts/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../webfonts/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+}
+
+p {
+    font-size: 1.2rem !important;
+}
+
+header {
+    border-bottom: 2px solid #3799FA !important;
+    background-color: white !important;
+}
+
+.bx--skip-to-content {
+    border: 2px solid #C2BBF0 !important;
+    background-color: white !important;
+    color: black !important;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 200;
+}
+
+.hncityTitle {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 32px;
+    font-weight: 400;
+}
+
+.hncityMenu {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+
+    list-style-type: none;
+}
+
+.hncityMenu li a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    user-select: none;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.hncityMenu li a:hover {
+    font-weight: 400;
+    background-color: #3799FA;
+    color: white;
+}
+
+.hncityMenu li a:focus {
+    border: 2px solid #C2BBF0;
+}
+
+#main-content {
+    padding: 0 !important;
+    font-family: 'Pretendard', sans-serif;
+}
+
+#main-image {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/main_image.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+#main-image div {
+    text-align: center;
+    color: white;
+}
+
+#main-image div h1,
+#main-image div h2 {
+    font-weight: 400;
+}
+
+#main-image div p {
+    font-size: 1.2rem;
+}
+
+#main-text-area {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+footer {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 200;
+    border-top: 2px solid #3799FA !important;
+    background-color: white;
+
+    width: 100%;
+    bottom: 0;
+    padding: 5px 16px 5px 16px;
+}
+
+.hncityIcons {
+    vertical-align: middle;
+}

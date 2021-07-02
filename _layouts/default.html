@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/main.css" />
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        {% include header.html %}
+
+        <main id="main-content">
+            {{ content }}
+        </main>
+        {% include footer.html %}                                   
+        <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js" />
+    </body>
+</html>
