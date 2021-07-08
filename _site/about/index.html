@@ -2,11 +2,30 @@
 <html lang="ko">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../css/main.css" />
-        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        <title>소개</title>
     </head>
     <body>
-        {% include header.html %}
+        <header class="bx--header" role="banner" data-header>
+    <a class="bx--skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
+    <h1 class="hncityTitle">하늘마을 프로젝트</h1>
+    <nav class="bx--header__nav">
+        <ul class="hncityMenu bx--header__menu-bar">
+            <li>
+                <a href="./about">소개</a>
+            </li>
+            <li>
+                <a href="./download">내려받기</a>
+            </li>
+            <li>
+                <a href="./news">새로운 소식</a>
+            </li>
+            <li>
+                <a href="./server">서버 운영 안내</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
         <main id="main-content">
             <div data-tabs class="bx--tabs">
@@ -17,13 +36,13 @@
 
                 <ul class="bx--tabs__nav bx--tabs__nav--hidden" role="tablist">
                     <li class="bx--tabs__nav-item bx--tabs__nav-item--selected" data-target=".tab-1-default" role="tab" aria-selected="true">
-                        <a tabindex="0" id="tab-link-1-default" class="bx--tabs__nav-link" href="javascript:void(0)" role="tab" aria-controls="tab-panel-1-default">{{page.tab_first}}</a>
+                        <a tabindex="0" id="tab-link-1-default" class="bx--tabs__nav-link" href="javascript:void(0)" role="tab" aria-controls="tab-panel-1-default">역사</a>
                     </li>
                     <li class="bx--tabs__nav-item " data-target=".tab-2-default" role="tab" >
-                        <a tabindex="0" id="tab-link-2-default" class="bx--tabs__nav-link" href="javascript:void(0)" role="tab" aria-controls="tab-panel-2-default">{{page.tab_second}}</a>
+                        <a tabindex="0" id="tab-link-2-default" class="bx--tabs__nav-link" href="javascript:void(0)" role="tab" aria-controls="tab-panel-2-default">특징</a>
                     </li>
                     <li class="bx--tabs__nav-item " data-target=".tab-3-default" role="tab" >
-                        <a tabindex="0" id="tab-link-3-default" class="bx--tabs__nav-link" href="javascript:void(0)" role="tab" aria-controls="tab-panel-3-default">{{page.tab_third}}</a>
+                        <a tabindex="0" id="tab-link-3-default" class="bx--tabs__nav-link" href="javascript:void(0)" role="tab" aria-controls="tab-panel-3-default">라이선스</a>
                     </li>
                 </ul>
             </div>
@@ -31,21 +50,25 @@
             <div class="bx--tab-content">
                 <div id="tab-panel-1-default" class="tab-1-default" role="tabpanel" aria-labelledby="tab-link-1-default" aria-hidden="false" >
                   <div>
-                    {% include_relative {{page.tabOne}} %}
+                    
                   </div>
                 </div>
                 <div id="tab-panel-2-default" class="tab-2-default" role="tabpanel" aria-labelledby="tab-link-2-default" aria-hidden="true"  hidden>
                   <div>
-                    {% include_relative {{page.tabTwo}} %}
+                    
                   </div>
                 </div>
                 <div id="tab-panel-3-default" class="tab-3-default" role="tabpanel" aria-labelledby="tab-link-3-default" aria-hidden="true"  hidden>
                   <div>
-                    {% include_relative {{page.tabThree}} %}
+                    
                   </div>
             </div>
         </main>
-        {% include footer.html %}                                   
+        <footer>
+    <p><img class="hncityIcons" src="./assets/globe.svg" type="image/svg+xml" width="20px"> 한국어 | <a href="./en/about/" class="bx--link bx--link--lg">English</a></p>
+    <p>&copy; 2015 - 2021 HaneulCity Authors. All right reserved.</p>
+    <p>본 웹사이트는 <a href="https://www.carbondesignsystem.com" target="_blank" class="bx--link bx--link--lg">IBM Carbon Design System</a>과 <a href="https://jekyllrb.com" target="_blank" class="bx--link bx--link--lg">Jekyll</a>을 이용하여 종이상자가 제작하였습니다.</p>
+</footer>                                   
         <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js" />
     </body>
 </html>
