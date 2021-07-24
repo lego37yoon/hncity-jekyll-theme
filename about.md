@@ -13,5 +13,8 @@ tab_third_id: license
 
 tabOne: history.html
 tabTwo: features.html
-tabThree: license.html
+tabThree: map_license.html
 ---
+## 소개
+
+하늘마을 프로젝트를 소개합니다.
