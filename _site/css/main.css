@@ -35,6 +35,11 @@ header {
     background-color: white !important;
 }
 
+.bx--tabs__nav-link {
+    font-size: 1.2rem !important;
+    padding-left: 0.5rem !important;
+}
+
 .bx--skip-to-content {
     border: 2px solid #36B1D6 !important;
     background-color: white !important;
