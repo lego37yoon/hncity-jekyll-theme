@@ -2,7 +2,7 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 
 p {
-    font-size: 1.2rem !important;
+    font-size: 1.0rem !important;
 }
 
 blockquote {
@@ -16,6 +16,22 @@ blockquote {
 
 .bold {
     font-weight: 400;
+}
+
+.small {
+    font-size: .875rem !important;
+}
+
+.primaryColor {
+    color: #3799FA;
+}
+
+.primaryDark {
+    color: #2C79C7;
+}
+
+.accent {
+    color: #82BFFB;
 }
 
 header {
