@@ -6,7 +6,6 @@ p {
 }
 
 blockquote {
-    background-color: #F4F4F4;
     display: inline-block;
     padding: 5px;
 }
@@ -24,13 +23,24 @@ header {
     background-color: white !important;
 }
 
+.bx--link:hover {
+    color: #2C79C7 !important;
+}
+
 .bx--tabs__nav-link {
-    font-size: 1.2rem !important;
-    padding-left: 0.5rem !important;
+    font-size: 1.0rem !important;
+}
+
+.bx--tabs--container .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link {
+    box-shadow: inset 0 2px 0 0 #3799FA !important;
+}
+
+.bx--tab-content div {
+    background-color: #F4F4F4;
 }
 
 .bx--skip-to-content {
-    border: 2px solid #36B1D6 !important;
+    border: 2px solid #82BFFB !important;
     background-color: white !important;
     color: black !important;
     font-family: 'Pretendard Variable', sans-serif;
@@ -81,12 +91,12 @@ header {
 
 .hncityMenu li a:hover {
     font-weight: 400;
-    background-color: #36B1D6;
+    background-color: #82BFFB;
     color: white;
 }
 
 .hncityMenu li a:focus {
-    border: 2px solid #36B1D6;
+    border: 2px solid #82BFFB;
 }
 
 #main-content {
