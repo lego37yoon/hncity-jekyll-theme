@@ -22,6 +22,10 @@ blockquote {
     font-size: .875rem !important;
 }
 
+.spaceOneRem {
+    padding-right: 1rem;
+}
+
 .primaryColor {
     color: #3799FA;
 }
@@ -84,6 +88,16 @@ header {
 .hncityTitle a:visited {
     text-decoration: none;
     color: black;
+}
+
+.postSection {
+    margin-bottom: 2rem;
+}
+
+.otherPosts {
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
 }
 
 .hncityMenu {

@@ -16,6 +16,20 @@
             <div id="post-content" class="bx--content">
                 {{ page.content }}
             </div>
+            <div id="other-posts" class="bx--content">
+                <h4>이 분류의 다른 글</h4>
+                {% assign count = 0 %}
+                {% for post in site.posts %}
+                    {% if post.categories == page.categories %}
+                        {% assign count = count | plus: 1 %}
+                        {% if count < 3 %}
+                            <a href="{{ post.url }}" class="otherPosts">
+                                <p><span class="small primaryDark spaceOneRem">{{ post.date | date: "%Y년 %m월 %d일"}}</span>{{ post.title }}</p>
+                            </a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
         </main>
         {% include footer.html %}                                   
         <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js" />
