@@ -2,6 +2,7 @@
 title: 새로운 소식
 permalink: /news/
 layout: post-list
+categoryName: news
 ---
 ## 새로운 소식
 

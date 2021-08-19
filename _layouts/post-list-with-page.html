@@ -10,7 +10,11 @@
 
         <main id="main-content" class="bx--content">
             <div id="about-this-page" class="bx--content"> <!--페이지 소개-->
-                {{ content }}
+                <h2>{{ page.aboutCategoryName }}</h2>
+                <p>{{ page.aboutCategoryDesc }}</p>
+            </div>
+            <div id="page-content" class="bx--content">
+                {{content}}
             </div>
             <div id="post-list" class="bx--content">
                 {% for post in site.posts %}

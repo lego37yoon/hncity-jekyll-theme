@@ -45,6 +45,7 @@ header {
 
 .bx--tabs__nav-link {
     font-size: 1.0rem !important;
+    outline-color: #82BFFB;
 }
 
 .bx--tabs--container .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link {
