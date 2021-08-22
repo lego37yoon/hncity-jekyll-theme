@@ -22,7 +22,7 @@
                 {% for post in site.posts %}
                     {% if post.categories == page.categories %}
                         {% assign count = count | plus: 1 %}
-                        {% if count < 3 %}
+                        {% if count < 4 %}
                             <a href="{{ post.url }}" class="otherPosts">
                                 <p><span class="small primaryDark spaceOneRem">{{ post.date | date: "%Y년 %m월 %d일"}}</span>{{ post.title }}</p>
                             </a>
@@ -31,7 +31,7 @@
                 {% endfor %}
             </div>
         </main>
-        {% include footer.html %}                                   
-        <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js" />
+        {% include footer.html %}
+        {% include script.html %}
     </body>
 </html>
