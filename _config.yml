@@ -2,3 +2,7 @@ encoding: "utf-8"
 markdown: kramdown
 
 url: http://localhost:4000
+title: 하늘마을 프로젝트
+
+plugins:
+  - jekyll-sitemap
