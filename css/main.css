@@ -157,6 +157,7 @@ header {
     padding: 0 !important;
     font-family: 'Pretendard Variable', sans-serif;
     font-feature-settings: 'ss05';
+    word-break: keep-all;
 }
 
 #main-image {
