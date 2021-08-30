@@ -8,9 +8,8 @@ Skylight Jekyll Theme is a Jekyll Theme based on Carbon Design System.
 - License: MIT License
 
 ### How to use
-#### 사용방법
 
-Just clone or download, edit <code>_config.yml</code> to modify URL of your server and run with Jekyll via below commands.
+Just clone or download, edit <code>_config.yml</code> to modify URL of your server and run with Ruby Bundle via below commands.
 
 테마를 내려받아 <code>_config.yml</code> 파일을 수정하여 실행할 URL을 정해주시고 Ruby의 bundle을 이용하여 다음과 같은 절차를 거쳐 실행해주세요.
 
