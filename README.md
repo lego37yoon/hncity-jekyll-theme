@@ -1,6 +1,10 @@
 # Skylight Jekyll Theme
 ## 하늘빛 테마
 
+***CAUTION*** THIS THEME IS CURRENTLY IN DEVELOPMENT. PLEASE BE CAREFUL BEFORE USE
+
+***주의*** 현재 이 테마는 개발 중입니다. 사용 전 유의 부탁드립니다.
+
 Skylight Jekyll Theme is a Jekyll Theme based on Carbon Design System.
 
 하늘빛 테마는 IBM사의 Carbon Design System을 바탕으로 제작된 Jekyll 테마입니다.
