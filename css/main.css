@@ -1,7 +1,7 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 
 p {
-    font-size: 1.0rem !important;
+    font-size: 1.0rem;
 }
 
 blockquote {
@@ -10,7 +10,7 @@ blockquote {
 }
 
 [hidden] {
-    display: none !important;
+    display: none;
 }
 
 .italic {
@@ -22,7 +22,7 @@ blockquote {
 }
 
 .small {
-    font-size: .875rem !important;
+    font-size: .875rem;
 }
 
 .spaceOneRem {
@@ -33,27 +33,40 @@ blockquote {
     color: #2C79C7;
 }
 
-header {
-    border-bottom: 2px solid #3799FA !important;
-    background-color: white !important;
+.bx--header {
+    border-bottom: 2px solid #3799FA;
+    background-color: white;
 }
 
 .bx--link:hover {
-    color: #2C79C7 !important;
+    color: #2C79C7;
 }
 
 .bx--tabs__nav-link {
-    font-size: 1.0rem !important;
+    font-size: 1.0rem;
     outline-color: #82BFFB;
 }
 
+a.bx--tabs__nav-link:focus {
+    outline-color: #82BFFB;
+}
+
+.bx--tabs--container .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link, .bx--tabs--container .bx--tabs__nav-item--selected:hover:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link {
+    box-shadow: inset 0 2px 0 0 #82BFFB;
+}
+
+.bx--tabs-trigger:focus,
+.bx--tabs-trigger:active {
+    outline: 2px solid #82BFFB;
+}
+
 .bx--tabs--container .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link {
-    box-shadow: inset 0 2px 0 0 #3799FA !important;
+    box-shadow: inset 0 2px 0 0 #3799FA;
 }
 
 .bx--tabs__nav-link:focus,
 .bx--tabs__nav-link:active {
-    outline: 2px solid #3799FA !important;
+    outline: 2px solid #3799FA;
 }
 
 .bx--tab-content div {
@@ -61,9 +74,9 @@ header {
 }
 
 .bx--skip-to-content {
-    border: 2px solid #82BFFB !important;
-    background-color: white !important;
-    color: black !important;
+    border: 2px solid #82BFFB;
+    background-color: white;
+    color: black;
     font-family: 'Pretendard Variable', sans-serif;
     font-weight: 200;
 }
@@ -100,16 +113,20 @@ header {
     padding: 1rem;
 }
 
+.bx--header__menu-toggle svg path {
+    fill: black;
+}
+
 .bx--header__menu-toggle:hover {
-    background-color: #82BFFB !important;
+    background-color: #82BFFB;
 }
 
 .bx--header__menu-toggle:hover svg path {
-    fill: white !important;
+    fill: white;
 }
 
 .bx--header__action:focus {
-    border-color: #82BFFB !important;
+    border-color: #82BFFB;
 }
 
 .bx--header__action--active {
@@ -119,9 +136,9 @@ header {
 }
 
 .hncityMenu {
-    font-family: 'Pretendard Variable', sans-serif !important;
-    font-size: 18px !important;
-    font-weight: 200 !important;
+    font-family: 'Pretendard Variable', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
 
     list-style-type: none;
 }
@@ -139,9 +156,9 @@ header {
 }
 
 .hncityMenu li a:hover {
-    font-weight: 400 !important;
-    background-color: #82BFFB !important;
-    color: white !important;
+    font-weight: 400;
+    background-color: #82BFFB;
+    color: white;
 }
 
 .hncityMenu li a:focus {
@@ -149,11 +166,16 @@ header {
 }
 
 .bx--navigation {
-    background-color: #FFFFFF !important;
+    background-color: #FFFFFF;
+}
+
+a.bx--side-nav__link:focus,
+.bx--side-nav a.bx--header__menu-item:focus {
+    outline: 2px solid #82BFFB;
 }
 
 #main-content {
-    padding: 0 !important;
+    padding: 0;
     font-family: 'Pretendard Variable', sans-serif;
     font-feature-settings: 'ss05';
     word-break: keep-all;
@@ -188,7 +210,7 @@ header {
 footer {
     font-family: 'Pretendard Variable', sans-serif;
     font-weight: 200;
-    border-top: 2px solid #3799FA !important;
+    border-top: 2px solid #3799FA;
     background-color: white;
 
     width: 100%;
