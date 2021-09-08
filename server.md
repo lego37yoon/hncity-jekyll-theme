@@ -13,6 +13,7 @@ aboutCategoryDesc: 하늘마을 프로젝트의 비공개 서버에 대해 안�
 
 - [규정 및 시설 소개](https://github.com/haneulcity/haneulcity/wiki)
 - [파일](https://github.com/haneulcity/haneulcity)
+  - [공식 버전](https://github.com/haneulcity/haneulcity/releases)
 
 1. 순서 있는 리스트
 2. 테스트 하는 중입니다.
