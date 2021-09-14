@@ -1,9 +1,5 @@
 # Skylight Jekyll Theme
-## 하늘빛 테마
-
-***CAUTION*** THIS THEME IS CURRENTLY IN DEVELOPMENT. PLEASE BE CAREFUL BEFORE USE
-
-***주의*** 현재 이 테마는 개발 중입니다. 사용 전 유의 부탁드립니다.
+> 하늘빛 테마
 
 Skylight Jekyll Theme is a Jekyll Theme based on Carbon Design System.
 
@@ -19,6 +15,28 @@ Just clone or download, edit <code>_config.yml</code> to modify URL of your serv
 
 - bundle install
 - bundle exec jekyll serve
+
+### Customize Theme
+
+You can custom this theme to modify colors, menu, contents, etc. We _are going to_ support below officially:
+
+- Change Primary Color, Primary Dark Color, Accent Color
+- Change URL to run theme
+- Modify menu for own use
+- Layouts that provides contents with three tab, blog post lists with main content, blog post lists, index page seems like HaneulCity main, etc
+
+> CAUTION: Some functions are not supported currently, because of development status.
+
+**See [official website](https://skylight.paperbox.moe) for more informations and how-to**
+
+색상, 메뉴, 내용 등 다양한 수정 및 사용이 가능합니다. 현재 아래와 같은 내용을 지원 예정입니다.
+
+- Primary, Primary Dark, Accent 색상 변경 (지원 예정)
+- URL 변경
+- 필요에 따른 메뉴 변경
+- 3개의 탭을 포함한 페이지, 내용이 추가된 블로그 글 목록, 블로그 글 목록 페이지, 홈 페이지 등 다양한 기본 레이아웃
+
+**[공식 웹사이트](https://skylight.paperbox.moe)에서 자세한 정보 및 설정 방법에 대해 확인하세요.**
 
 ### Demo of Skylight Jekyll Theme
 
