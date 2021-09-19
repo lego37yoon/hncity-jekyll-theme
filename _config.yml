@@ -2,7 +2,8 @@ encoding: "utf-8"
 markdown: kramdown
 
 url: "https://skylight.paperbox.moe"
-title: "하늘마을 프로젝트"
+title: "하늘빛 테마"
+
 primary-color: "#3799FA"
 accent-color: "#82BFFB"
 primary-dark-color: "#2C79C7"
