@@ -4,9 +4,13 @@ p {
     font-size: 1.0rem;
 }
 
+b {
+    font-weight: 600;
+}
+
 blockquote {
-    display: inline-block;
-    padding: 5px;
+    padding: 2.0rem;
+    font-style: italic;
 }
 
 [hidden] {
@@ -33,6 +37,16 @@ blockquote {
     color: #2C79C7;
 }
 
+.bx--list--unordered {
+    margin-left: 1.0rem;
+    font-size: 1.0rem;
+}
+
+.bx--list--ordered {
+    margin-left: 1.5rem;
+    font-size: 1.0rem;
+}
+
 .bx--header {
     border-bottom: 2px solid #3799FA;
     background-color: white;
@@ -45,6 +59,10 @@ blockquote {
 .bx--tabs__nav-link {
     font-size: 1.0rem;
     outline-color: #82BFFB;
+}
+
+.bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link, .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link:focus, .bx--tabs__nav-item--selected:not(.bx--tabs__nav-item--disabled) .bx--tabs__nav-link:active {
+    font-size: 1.0rem;
 }
 
 a.bx--tabs__nav-link:focus {
@@ -79,6 +97,14 @@ a.bx--tabs__nav-link:focus {
     color: black;
     font-family: 'Pretendard Variable', sans-serif;
     font-weight: 200;
+}
+
+.sl--nested-content {
+    padding: 0.5rem 2.0rem 0.5rem 2.0rem;
+}
+
+.sl--nested-content p {
+    padding-bottom: 0.25rem;
 }
 
 .mainTitle {
