@@ -47,6 +47,72 @@ blockquote {
     font-size: 1.0rem;
 }
 
+.bx--btn {
+    font-size: 1.0rem;
+}
+
+.bx--btn--primary {
+    background-color: #3799FA;
+}
+
+.bx--btn--primary:hover {
+    background-color: #2C79C7;
+}
+
+.bx--btn--primary:focus {
+    border-color: #82BFFB;
+    box-shadow: inset 0 0 0 1px #82BFFB, inset 0 0 0 2px #fff;
+}
+
+.bx--btn--secondary:focus {
+    border-color: #82BFFB;
+    box-shadow: inset 0 0 0 1px #82BFFB, inset 0 0 0 2px #fff;
+}
+
+.bx--btn--tertiary {
+    border-color: #3799FA;
+}
+
+.bx--btn--tertiary:active {
+    border-color: transparent;
+    background-color: #2C79C7;
+    color: #fff;
+}
+
+.bx--btn--tertiary:focus {
+    background-color: #3799FA;
+    color: #fff;
+    border-color: #3799FA;
+    box-shadow: inset 0 0 0 1px #3799FA, inset 0 0 0 2px #fff;
+}
+
+.bx--btn--tertiary:hover {
+    background-color: #3799FA;
+}
+
+.bx--btn--danger:focus {
+    border-color: #82BFFB;
+    box-shadow: inset 0 0 0 1px #82BFFB, inset 0 0 0 2px #fff;
+}
+
+.bx--btn--ghost {
+    color: #3799FA;
+}
+
+.bx--btn--ghost:hover, .bx--btn--ghost:active {
+    color: #2C79C7;
+}
+
+.bx--btn--ghost:focus {
+    border-color: #3799FA;
+    box-shadow: inset 0 0 0 1px #3799FA, inset 0 0 0 2px #fff;
+}
+
+.bx--btn--danger-ghost:focus, .bx--btn--danger--ghost:focus {
+    border-color: #82BFFB;
+    box-shadow: inset 0 0 0 1px #82BFFB, inset 0 0 0 2px #fff;
+}
+
 .bx--header {
     border-bottom: 2px solid #3799FA;
     background-color: white;
